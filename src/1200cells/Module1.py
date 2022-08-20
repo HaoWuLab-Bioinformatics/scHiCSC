@@ -73,7 +73,7 @@ def con_ran(arg):
     # Specifies the file path to use, where type is a cell type, cell _ id is the number of cells in a type, such as 44 cells in GM12878, whose number is 1-44
     # chr_name is the marker of chromosomes. Human cells have 23 chromosomes corresponding to 1,2... 22,X.
     # contact_1200, 2655 The first and second columns of the dataset are bin numbers, and the third column is the contact count of two bins
-    file_path = "../contact_1200/%s/cell_%s_%s.txt" % (type, str(cell_id), chr_name)
+    file_path = "../dataset/contact_1200/%s/cell_%s_%s.txt" % (type, str(cell_id), chr_name)
     ##################################################################
     chr_file = open(file_path)
     lines = chr_file.readlines()
