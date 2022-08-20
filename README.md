@@ -1,6 +1,14 @@
 # scHiCSC
 ## Introduction
-scHiCStackL is a comprehensive python package for cell type prediction using single-cell Hi-C data. scHiCStackL contains a two-layer stacking learning-based ensemble model. The stacking ensemble learning-based model is comprised of Ridge Regression (RR) classifier and Logistic Regression (LR) classifier as the base-classifiers (i.e., first-level) and Gaussian Naive Bayes (GaussianNB) classifier as the meta-classifier (i.e., second-level).
+scHiCSC is a novel single-cell Hi-C clustering framework by contact-weight-based smoothing and feature fusion.It achieves a good and stable clustering effect in the datasets with large-scale cell numbers and can cluster the cells whose number is very small in the whole dataset.
+
+## Dependency
+Python 3.6   
+keras  2.3.1  
+sklearn  
+numpy  
+mlxtend  
+h5py 
 
 ### Installing scHiCStackL:
 Download the zip file of the scHiCStackL project, and install the python package through the following one of the two methods:
