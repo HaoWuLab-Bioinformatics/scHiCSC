@@ -3,6 +3,11 @@
 scHiCSC is a novel single-cell Hi-C clustering framework by contact-weight-based smoothing and feature fusion.It achieves a good and stable clustering effect in the datasets with large-scale cell numbers and can cluster the cells whose number is very small in the whole dataset.
 
 ## Usage
+### Smooth chromesome contact matrix
+In order to better discriminate different types of cells and obtain the excellent clustering effect,we propose a new smoothing approach based on contact number weight, and construct cell embedding sequentially by a random walk with restart smoothing.Thus you can run the 
+
+###Feature fusion and Clustering
+
 First, you should perform data preprocessing, you can run the script as: 
 
 `python data prepare.py`  
