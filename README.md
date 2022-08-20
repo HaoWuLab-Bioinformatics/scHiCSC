@@ -5,7 +5,7 @@ scHiCSC is a novel single-cell Hi-C clustering framework by contact-weight-based
 ## Overview
 <img src="framework.jpg" width="1000" height="500" />  
 
- As shown in Fig. 1, the scHiCSC framework consists of three crucial steps: cell embedding generation,feature fusion, and spectral clustering.In this framework, we propose a new smoothing approach based on contact number weight, and construct cell embedding sequentially by a random walk with restart smoothing. Furthermore, we present a new feature fusion approach to achieve the cell embedding created in the preceding stage and generate a feature fusion matrix. Finally, the spectral clustering algorithm is used to achieve cell clustering.
+The scHiCSC framework consists of three crucial steps: cell embedding generation,feature fusion, and spectral clustering.In this framework, we propose a new smoothing approach based on contact number weight, and construct cell embedding sequentially by a random walk with restart smoothing. Furthermore, we present a new feature fusion approach to achieve the cell embedding created in the preceding stage and generate a feature fusion matrix. Finally, the spectral clustering algorithm is used to achieve cell clustering.
 
 ## Usage
 ### Smooth chromosome contact matrices
@@ -16,7 +16,7 @@ scHiCSC proposes smoothing based on contact number weight and random walk with r
 ### Feature fusion and Clustering
 After imputation, scHiCSC proposes a new feature fusion approach to achieve the cell embedding and generate a feature fusion matrix. Finally, scHiCSC uses the spectral clustering algorithm to achieve cell clustering.You can run the script as:
 
-``` python './ML1&ML3/Module2.py' ```  or ``` python './2655cells/Module2.py'```
+``` python './ML1&ML3/Module2.py' ```  or ``` python './All human cell data of the Ramani/Module2.py'```
 
 Note：Folders named Files and parameters need to be placed in the project directory you created
 ## Dependency
