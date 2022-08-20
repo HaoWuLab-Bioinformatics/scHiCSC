@@ -16,7 +16,7 @@ scHiCSC proposes smoothing based on contact number weight and random walk with r
 ### Feature fusion and Clustering
 After imputation, scHiCSC proposes a new feature fusion approach to achieve the cell embedding and generate a feature fusion matrix. Finally, scHiCSC uses the spectral clustering algorithm to achieve cell clustering.You can run the script as:
 
-``` python './626cells/Module2.py' ```  or ``` python './2655cells/Module2.py'```
+``` python './ML1&ML3/Module2.py' ```  or ``` python './2655cells/Module2.py'```
 
 Note：Folders named Files and parameters need to be placed in the project directory you created
 ## Dependency
