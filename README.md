@@ -29,17 +29,14 @@ After imputation, scHiCSC generate the cell embedding. Then, a novel feature fus
 or ``` python './src/800cells/Module2.py'```
 
 Note：Folders named Files and parameters need to be placed in the project directory you created
+
 ## Dependency
 Python 3.6   
 sklearn  
 numpy  
 multiprocessing
 itertools
-sys
-gc
-collections
-scipy
-xlsxwriter
+
 
 
 
