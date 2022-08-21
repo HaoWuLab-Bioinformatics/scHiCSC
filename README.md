@@ -8,7 +8,9 @@ scHiCSC is a novel single-cell Hi-C clustering framework by contact-weight-based
 The scHiCSC framework consists of three crucial steps: cell embedding generation,feature fusion, and spectral clustering.In this framework, we propose a new smoothing approach based on contact number weight, and construct cell embedding sequentially by a random walk with restart smoothing. Furthermore, we present a new feature fusion approach to achieve the cell embedding created in the preceding stage and generate a feature fusion matrix. Finally, the spectral clustering algorithm is used to achieve cell clustering.
 
 ## Dataset
-
+The folder “./src/dataset” contains the datasets used in this study. It consists of seven folders such as "contact_626", "contact_800".
+Take "./src/dataset/contact_626/" as an example, this folder contains data for 626 cells in four human cell lines (GM12878, HAP1, HeLa, K562). 
+Take "./src/dataset/contact_626/GM12878/cell_1_chr1.txt " as an example, this file describes the interaction information on chromosome 1 in GM12878 cell 1. This file contains three columns of data, the first and second columns are bin numbers, and the third column is the contact number of two bins. For example, ``` 47 48 5 ``` represents the contact number between bin47 and bin48 is 8.
 
 ## Usage
 The code of scHiCSC contains two modules:
@@ -31,7 +33,13 @@ Note：Folders named Files and parameters need to be placed in the project direc
 Python 3.6   
 sklearn  
 numpy  
-
+multiprocessing
+itertools
+sys
+gc
+collections
+scipy
+xlsxwriter
 
 
 
