@@ -9,15 +9,15 @@ The scHiCSC framework consists of three crucial steps: cell embedding generation
 
 ## Usage
 The code of scHiCSC contains two modules:
-### Module 1 : Smoothing chromosome contact matrices
-scHiCSC proposes smoothing based on contact number weight and random walk with restart to impute the chromosome contact matrices for each cell and each chromosome separately. Thus you can run the script as:
+### Module 1: 
+scHiCSC proposes "smoothing based on contact number weight", "RWR(random walk with restart)-based smoothing" and "Contact binarization" to impute the chromosome contact matrices for each cell and each chromosome separately. Thus you can run the script as:
 
 ``` python './src/ML1&ML3/Module1.py' ```  or ``` python './src/All human cell data of the Ramani/Module1.py'```
 
 or ``` python './src/800cells/Module1.py'```
 
-### Module 2 : Cell embedding generation, Feature fusion and Clustering
-After imputation, scHiCSC proposes a new feature fusion approach to achieve the cell embedding and generate a feature fusion matrix. Finally, scHiCSC uses the spectral clustering algorithm to achieve cell clustering.You can run the script as:
+### Module 2:
+After imputation, scHiCSC generate the cell embedding. Then, a novel feature fusion method is proposed to further supplement the feature information of cells by fusing the chromosome structure information within cells and the distance information between cells. Finally, scHiCSC uses the spectral clustering algorithm to achieve cell clustering.You can run the script as:
 
 ``` python './src/ML1&ML3/Module2.py' ```  or ``` python './src/All human cell data of the Ramani/Module2.py'```
 
