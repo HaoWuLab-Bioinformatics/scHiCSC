@@ -7,6 +7,9 @@ scHiCSC is a novel single-cell Hi-C clustering framework by contact-weight-based
 
 The scHiCSC framework consists of three crucial steps: cell embedding generation,feature fusion, and spectral clustering.In this framework, we propose a new smoothing approach based on contact number weight, and construct cell embedding sequentially by a random walk with restart smoothing. Furthermore, we present a new feature fusion approach to achieve the cell embedding created in the preceding stage and generate a feature fusion matrix. Finally, the spectral clustering algorithm is used to achieve cell clustering.
 
+## Dataset
+
+
 ## Usage
 The code of scHiCSC contains two modules:
 ### Module 1: 
