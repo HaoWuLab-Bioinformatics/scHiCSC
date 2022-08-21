@@ -33,10 +33,10 @@ Note：Folders named Files and parameters need to be placed in the project direc
 ## Dependency
 Python 3.6   
 sklearn  
-numpy  
-multiprocessing
-itertools
-
+numpy    
+multiprocessing    
+scipy  
+collections   
 
 
 
